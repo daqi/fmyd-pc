@@ -468,7 +468,48 @@ body {
 .home .home-slider{
   width: 100%;
   max-width: 1920px;
-  height: 690px;
+  position: relative;
+  padding-top: 35.9375%;
+}
+.home .home-slider .slider-item{
+  width: 100%;
+  max-width: 1920px;
+  position: absolute;
+  top:0;
+  left:0;
+}
+.home .home-slider .slider-item img{
+  max-width: 100%;
+  display: block;
+}
+.home .home-slider .slider-nav{
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+}
+.home .home-slider .slider-nav-item{
+  width: 260px;
+	height: 103px;
+	background-color: #ffffff;
+  opacity: 0.9;
+  color: #333333;
+  font-size: 20px;
+  line-height: 103px;
+  text-align: center;
+  cursor: pointer;
+  float: left;
+  margin-right: 210px;
+}
+.home .home-slider .slider-nav-item:last-child{
+  margin-right: 0;
+}
+.home .home-slider .slider-nav-item.active{
+  width: 260px;
+	height: 103px;
+	background-color: #edbb47;
+  opacity: 0.8;
+  color: #fff;
+  text-decoration: underline;
 }
 
 .home .block-title {
